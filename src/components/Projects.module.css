@@ -1,0 +1,64 @@
+.container {
+  background-color: var(--darkBackground2);
+  height: 100vh;
+  padding: 0 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
+.h2 {
+  color: var(--darkTextColor2);
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+.h3 {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.project {
+  padding: 30px 20px;
+  background-color: var(--darkBackground1);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  border: 2px solid var(--darkTextColor2);
+}
+
+.projectDescription {
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.links {
+  color: var(--darkTextColor2);
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.links:hover {
+  color: white;
+}
+
+
+@media only screen and (max-height: 850px) {
+  .container {
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}

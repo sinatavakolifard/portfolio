@@ -1,0 +1,50 @@
+.container {
+  background-color: var(--darkBackground1);
+  height: 100vh;
+  padding: 0 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
+.h2 {
+  color: var(--darkTextColor2);
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+.h3 {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.skills {
+  display: grid; 
+  grid-template-columns: 1.1fr 1.1fr 1fr 1fr 0.8fr; 
+  grid-template-rows: 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". . . . .";  
+}
+
+.skill ul {
+  padding: 0 20px;
+}
+
+.skill li {
+  padding: 0;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-height: 850px) {
+  .container {
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}

@@ -1,0 +1,48 @@
+.navBar {
+  margin: 0;
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  /* font-size: 1.1rem; */
+  font-size: 16px;
+  position: fixed;
+  top: 0;
+  background-color: var(--darkBackground1);
+  box-shadow: 0 10px 20px var(--darkBackground1)
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 600;
+  font-family: "OstrichSansBold";
+  /* font-size: 3rem; */
+  font-size: 45px;
+  color: var(--darkTextColor2);
+}
+
+.NavItems {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.NavItems li {
+  transition: 0.3s;
+}
+
+.NavItems li:hover {
+  color: var(--darkTextColor2);
+  cursor: pointer;
+}
+
+.selected {
+  color: var(--darkTextColor2);
+  border-bottom: 1px solid var(--darkTextColor2);
+}
+
+
