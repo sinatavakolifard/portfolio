@@ -42,7 +42,7 @@ const Project = forwardRef<HTMLDivElement>(({}, ref) => {
           >
             Link to Website
           </a>
-          <a className={styles.links} href="">
+          <a className={styles.links} href="https://github.com/sinatavakolifard/portfolio">
             Link to Github Repo
           </a>
         </div>

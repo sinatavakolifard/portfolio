@@ -10,10 +10,10 @@ const Education = forwardRef<HTMLDivElement>(({}, ref) => {
       <div className={styles.educations}>
         <div className={styles.education}>
           <img className={styles.uniLogo} src={rptuLogo} alt="RPTU Logo" />
-          <div>
-            <h3>Master of Science in Computer Science</h3>
-            <p>RPTU Kaiserslautern - Germany</p>
-            <p>2023 - Current</p>
+          <div className={styles.educationDetails}>
+            <h3 className={styles.h3}>Master of Science in Computer Science</h3>
+            <p className={styles.location}>RPTU Kaiserslautern - Germany</p>
+            <p className={styles.year}>2023 - Current</p>
           </div>
         </div>
         <div className={styles.education}>
@@ -23,9 +23,9 @@ const Education = forwardRef<HTMLDivElement>(({}, ref) => {
             alt="Tabriz University Logo"
           />
           <div>
-            <h3>Bachelor of Science in Computer Engineering</h3>
-            <p>University of Tabriz - Iran</p>
-            <p>2018 - 2022</p>
+            <h3 className={styles.h3}>Bachelor of Science in Computer Engineering</h3>
+            <p className={styles.location}>University of Tabriz - Iran</p>
+            <p className={styles.year}>2018 - 2022</p>
           </div>
         </div>
       </div>

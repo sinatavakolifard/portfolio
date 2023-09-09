@@ -6,7 +6,6 @@ import { BsLinkedin, BsGithub } from "react-icons/bs";
 const About = forwardRef<HTMLDivElement>(({}, ref) => {
   return (
     <div ref={ref} className={styles.container}>
-      <div></div>
       <div>
         <h2 className={styles.h2}>About Me:</h2>
         <p className={styles.aboutMeText}>

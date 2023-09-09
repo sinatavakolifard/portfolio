@@ -4,38 +4,53 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  /* align-items: center; */
   width: 100%;
-  /* font-size: 1.1rem; */
-  font-size: 16px;
+  height: 75px;
+  /* font-size: 1.1rem;
+  font-size: 6px; */
   position: fixed;
   top: 0;
-  background-color: var(--darkBackground1);
-  box-shadow: 0 10px 20px var(--darkBackground1)
+  background-color: var(--darkNavBarBackground);
+  box-shadow: 0 10px 20px var(--darkBackground1);
+  overflow: hidden;
 }
 
 .logo {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   font-weight: 600;
-  font-family: "OstrichSansBold";
   /* font-size: 3rem; */
   font-size: 45px;
   color: var(--darkTextColor2);
 }
 
-.NavItems {
+.logoText {
+  font-family: "OstrichSansBold";
+  padding: 0;
+  margin: 0;
+}
+
+.hamburgerDiv {
+  display: none;
+}
+
+.navItems {
   list-style-type: none;
+  font-size: 1.1rem;
   display: flex;
   flex-direction: row;
+  align-content: center;
   gap: 25px;
 }
 
-.NavItems li {
+.navItem {
   transition: 0.3s;
 }
 
-.NavItems li:hover {
+.navItem:hover {
   color: var(--darkTextColor2);
   cursor: pointer;
 }
@@ -46,3 +61,56 @@
 }
 
 
+
+@media only screen and (max-width: 1200px) {
+  .navBar {
+    /* height: 100vh; */
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .navIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .navContent {
+    padding-top: 30px;
+    font-size: 1.4rem;
+  }
+
+  .navItems {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+    gap: 50px;
+  }
+
+  .hamburgerDiv {
+    display: inline;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    /* position: fixed;
+    right: 40px; */
+  }
+
+  .hamburgerIcon {
+    padding: 0;
+  }
+
+  .selected {
+    color: var(--darkTextColor2);
+    border-bottom: none;
+  }
+}
+
+
+@media only screen and (max-height: 700px) {
+  .navBar {
+    height: auto;
+  }
+}

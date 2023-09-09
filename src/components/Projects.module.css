@@ -55,6 +55,64 @@
 }
 
 
+
+@media only screen and (max-width: 1500px) {
+  .container {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+
+  .h2 {
+    font-size: 1.6rem;
+  }
+
+  .h3 {
+    font-size: 1.4rem;
+  }
+
+  .projectDescription {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    height: auto;
+    padding: 100px 75px;
+  }
+
+  .h2 {
+    font-size: 1.5rem;
+  }
+
+  .h3 {
+    font-size: 1.3rem;
+  }
+
+  .projectDescription {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .h2 {
+    font-size: 1.2rem;
+  }
+
+  .h3 {
+    font-size: 1.1rem;
+  }
+
+  .projectDescription {
+    font-size: 1rem;
+  }
+}
+
 @media only screen and (max-height: 850px) {
   .container {
     height: auto;
