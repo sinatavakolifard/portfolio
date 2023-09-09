@@ -87,7 +87,7 @@ const NavBar = ({ scroll }: { scroll: (i: number) => void }) => {
     }
     // setHamburger(!hamburger);
     if (hamburger && navBarRef && navBarRef.current) {
-      if (window.innerHeight > 700)
+      if (window.innerHeight > 600)
         navBarRef.current.style.setProperty("height", "100vh");
       else navBarRef.current.style.setProperty("height", "auto");
     }
