@@ -1,24 +1,17 @@
 import { useEffect, useRef, useState } from "react";
 import styles from "./NavBar.module.css";
 import { RxHamburgerMenu, RxCross2 } from "react-icons/rx";
+import { ImMail4 } from "react-icons/im";
+import { BsLinkedin, BsGithub } from "react-icons/bs";
 
-// const NavBar = (scroll: (i: number) => void) => {
 const NavBar = ({ scroll }: { scroll: (i: number) => void }) => {
   const [selectedItem, setSelectedItem] = useState(0);
   const [hamburger, setHamburger] = useState(true);
 
-  const ref = useRef<HTMLInputElement>(null);
+  // const ref = useRef<HTMLInputElement>(null);
   const navBarRef = useRef<HTMLDivElement>(null);
 
-  // const navItemsNumbers = [0, 1, 2, 3, 4]
   const navItems = ["Home", "About", "Skills", "Projects", "Education"];
-  // const navItems = {
-  //   0: "Home",
-  //   1: "About",
-  //   2: "Skills",
-  //   3: "Projects",
-  //   4: "Education"
-  // }
 
   // const handleClick = () => {
   // ref.current?.scrollIntoView({ behavior: 'smooth' });
@@ -61,13 +54,13 @@ const NavBar = ({ scroll }: { scroll: (i: number) => void }) => {
   //   }
   // };
 
-  const checkNavbar = () => {
-    if (window.innerWidth > 1200) {
-      setHamburger(false);
-    } else {
-      setHamburger(true);
-    }
-  };
+  // const checkNavbar = () => {
+  //   if (window.innerWidth > 1200) {
+  //     setHamburger(false);
+  //   } else {
+  //     setHamburger(true);
+  //   }
+  // };
 
   // useEffect(() => {
   //   window.addEventListener("scroll", checkSelectedItem);
@@ -85,11 +78,11 @@ const NavBar = ({ scroll }: { scroll: (i: number) => void }) => {
     if (!hamburger && navBarRef && navBarRef.current) {
       navBarRef.current.style.setProperty("height", "75px");
     }
-    // setHamburger(!hamburger);
     if (hamburger && navBarRef && navBarRef.current) {
-      if (window.innerHeight > 600)
-        navBarRef.current.style.setProperty("height", "100vh");
-      else navBarRef.current.style.setProperty("height", "auto");
+      // if (window.innerHeight > 600)
+      //   navBarRef.current.style.setProperty("height", "100vh");
+      // else navBarRef.current.style.setProperty("height", "auto");
+      navBarRef.current.style.setProperty("height", "auto");
     }
     setHamburger(!hamburger);
   };
@@ -136,6 +129,27 @@ const NavBar = ({ scroll }: { scroll: (i: number) => void }) => {
             </li>
           ))}
         </ul>
+      </div>
+
+      <div className={styles.navSocialMedia}>
+        <a
+          href="mailto:tavakolifard.sina@gmail.com"
+          className={styles.navSocialMediaItem}
+        >
+          <ImMail4 size={30} />
+        </a>
+        <a
+          href="https://linkedin.com/in/sina-tavakolifard-538990269"
+          className={styles.navSocialMediaItem}
+        >
+          <BsLinkedin size={30} />
+        </a>
+        <a
+          href="https://github.com/sinatavakolifard"
+          className={styles.navSocialMediaItem}
+        >
+          <BsGithub size={30} />
+        </a>
       </div>
     </div>
   );

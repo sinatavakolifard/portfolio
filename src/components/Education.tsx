@@ -23,7 +23,9 @@ const Education = forwardRef<HTMLDivElement>(({}, ref) => {
             alt="Tabriz University Logo"
           />
           <div>
-            <h3 className={styles.h3}>Bachelor of Science in Computer Engineering</h3>
+            <h3 className={styles.h3}>
+              Bachelor of Science in Computer Engineering
+            </h3>
             <p className={styles.location}>University of Tabriz - Iran</p>
             <p className={styles.year}>2018 - 2022</p>
           </div>

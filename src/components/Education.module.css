@@ -14,6 +14,8 @@
 }
 
 .h3 {
+  color: white;
+  font-weight: bold;
   font-size: 1.4rem;
 }
 
@@ -123,6 +125,7 @@
 
   .education {
     width: 100%;
+    padding: 10px 20px;
   }
 
   .h2 {

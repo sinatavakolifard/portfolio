@@ -11,7 +11,7 @@
   font-size: 6px; */
   position: fixed;
   top: 0;
-  background-color: var(--darkNavBarBackground);
+  background-color: var(--darkBackground2);
   box-shadow: 0 10px 20px var(--darkBackground1);
   overflow: hidden;
 }
@@ -53,6 +53,10 @@
 .navItem:hover {
   color: var(--darkTextColor2);
   cursor: pointer;
+}
+
+.navSocialMedia {
+  display: none;
 }
 
 .selected {
@@ -100,6 +104,21 @@
 
   .hamburgerIcon {
     padding: 0;
+  }
+
+  .navSocialMedia {
+    margin: 40px 0 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .navSocialMediaItem {
+    color: var(--darkTextColor1);
+  }
+
+  .navSocialMediaItem:hover {
+    color: var(--darkTextColor2);
   }
 
   .selected {
