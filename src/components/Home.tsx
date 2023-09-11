@@ -1,6 +1,6 @@
 import { forwardRef } from "react";
 import styles from "./Home.module.css";
-import myPicture from "../images/SinaTavakolifard.webp";
+import myPicture from "/public/images/SinaTavakolifard.webp";
 
 const Home = forwardRef<HTMLDivElement>(({}, ref) => {
   return (

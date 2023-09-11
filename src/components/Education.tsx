@@ -1,7 +1,7 @@
 import { forwardRef } from "react";
 import styles from "./Education.module.css";
-import rptuLogo from "../images/rptu-logo.webp";
-import tabrizUniLogo from "../images/tabrizUni-logo.webp";
+import rptuLogo from "/public/images/rptu-logo.webp";
+import tabrizUniLogo from "/public/images/tabrizUni-logo.webp";
 
 const Education = forwardRef<HTMLDivElement>(({}, ref) => {
   return (

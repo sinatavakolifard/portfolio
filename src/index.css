@@ -22,7 +22,7 @@
 
 @font-face {
   font-family: 'OstrichSansBold';
-  src: url('/src/fonts/OstrichSans-Bold.otf')
+  src: url('/public/fonts/OstrichSans-Bold.otf')
 }
 
 * {
