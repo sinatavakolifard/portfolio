@@ -22,7 +22,7 @@ const Project = forwardRef<HTMLDivElement>(({}, ref) => {
           >
             Link to Website
           </a>
-          <a className={styles.links} href="">
+          <a className={styles.links} href="" target="_blank">
             Link to Github Repo
           </a>
         </div>
@@ -42,7 +42,11 @@ const Project = forwardRef<HTMLDivElement>(({}, ref) => {
           >
             Link to Website
           </a>
-          <a className={styles.links} href="https://github.com/sinatavakolifard/portfolio">
+          <a
+            className={styles.links}
+            href="https://github.com/sinatavakolifard/portfolio"
+            target="_blank"
+          >
             Link to Github Repo
           </a>
         </div>

@@ -134,18 +134,21 @@ const NavBar = ({ scroll }: { scroll: (i: number) => void }) => {
       <div className={styles.navSocialMedia}>
         <a
           href="mailto:tavakolifard.sina@gmail.com"
+          target="_blank"
           className={styles.navSocialMediaItem}
         >
           <ImMail4 size={30} />
         </a>
         <a
           href="https://linkedin.com/in/sina-tavakolifard-538990269"
+          target="_blank"
           className={styles.navSocialMediaItem}
         >
           <BsLinkedin size={30} />
         </a>
         <a
           href="https://github.com/sinatavakolifard"
+          target="_blank"
           className={styles.navSocialMediaItem}
         >
           <BsGithub size={30} />
