@@ -7,6 +7,24 @@ const Skills = forwardRef<HTMLDivElement>(({}, ref) => {
       <h2 className={styles.h2}>Skills:</h2>
       <div className={styles.skills}>
         <div className={styles.skill}>
+          <h3 className={styles.h3}>Machine Learning:</h3>
+          <ul>
+            <li>Python</li>
+            <li>Tensorflow</li>
+            <li>Data Mining</li>
+            <li>Information retrieval</li>
+          </ul>
+        </div>
+        <div className={styles.skill}>
+          <h3 className={styles.h3}>QE and Test:</h3>
+          <ul>
+            <li>Appium</li>
+            <li>Selenium</li>
+            <li>Jira</li>
+            <li>Jenkins</li>
+          </ul>
+        </div>
+        <div className={styles.skill}>
           <h3 className={styles.h3}>Front-End:</h3>
           <ul>
             <li>React</li>
@@ -36,7 +54,7 @@ const Skills = forwardRef<HTMLDivElement>(({}, ref) => {
           <h3 className={styles.h3}>Version Control:</h3>
           <ul>
             <li>Git</li>
-            <li>Github/Gitlab</li>
+            <li>Github/Gitlab/BitBucket</li>
           </ul>
         </div>
         <div className={styles.skill}>

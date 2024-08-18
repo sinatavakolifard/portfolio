@@ -9,13 +9,16 @@ const About = forwardRef<HTMLDivElement>(({}, ref) => {
       <div>
         <h2 className={styles.h2}>About Me:</h2>
         <p className={styles.aboutMeText}>
-          I am a passionate and results-driven{" "}
-          <span>Full-Stack Web Developer</span> with a strong background in
-          building web applications using{" "}
-          <span>React, TypeScript, Node.js, and Express.js</span>. I am
-          dedicated to creating elegant, efficient, and user-friendly solutions
-          for complex problems. My goal is to continue learning and expanding my
-          skill set to stay at the forefront of web development technologies.
+          I am a passionate <span>Computer Sciecne</span> master student with
+          specializations in <span>Software Engineering</span> and{" "}
+          <span>Intelligent Systems</span>, currently working as a {" "}
+          <span>Quality Engineer</span> developing a{" "}
+          <span>Test Automation</span> framework. I am dedicated to expanding my
+          expertise in <span>Artificial Intelligence</span> and{" "}
+          <span>Machine Learning</span> technologies as my specializations. My
+          goal is to use my skills in creating elegant and efficient solutions
+          while advancing in the field of AI/ML to stay at the forefront of
+          innovative technologies.
         </p>
       </div>
       <div>

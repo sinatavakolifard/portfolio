@@ -13,7 +13,7 @@ const Home = forwardRef<HTMLDivElement>(({}, ref) => {
           </span>
         </p>
         {/* <p><span className={[styles.name, styles.color].join(" ")}></span></p> */}
-        <p>A Full-Stack Web Developer</p>
+        <p>A Quality Engineer and Developer in Test</p>
       </div>
       <div className={styles.pictureDiv}>
         <img
