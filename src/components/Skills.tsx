@@ -15,7 +15,7 @@ const Skills = forwardRef<HTMLDivElement>(({}, ref) => {
             <li>Information retrieval</li>
           </ul>
         </div>
-        <div className={styles.skill}>Postman
+        <div className={styles.skill}>
           <h3 className={styles.h3}>QE and Test:</h3>
           <ul>
             <li>Pytest</li>
