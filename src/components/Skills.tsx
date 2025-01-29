@@ -10,17 +10,17 @@ const Skills = forwardRef<HTMLDivElement>(({}, ref) => {
           <h3 className={styles.h3}>Machine Learning:</h3>
           <ul>
             <li>Python</li>
-            <li>Tensorflow</li>
+            <li>PyTorch</li>
             <li>Data Mining</li>
             <li>Information retrieval</li>
           </ul>
         </div>
-        <div className={styles.skill}>
+        <div className={styles.skill}>Postman
           <h3 className={styles.h3}>QE and Test:</h3>
           <ul>
+            <li>Pytest</li>
             <li>Appium</li>
             <li>Selenium</li>
-            <li>Jira</li>
             <li>Jenkins</li>
           </ul>
         </div>
@@ -28,7 +28,7 @@ const Skills = forwardRef<HTMLDivElement>(({}, ref) => {
           <h3 className={styles.h3}>Front-End:</h3>
           <ul>
             <li>React</li>
-            <li>JavaScript (ES6+)</li>
+            <li>JavaScript, TypeScript</li>
             <li>HTML5, CSS3, SASS/SCSS</li>
             <li>Responsive Web Design</li>
           </ul>
@@ -58,10 +58,17 @@ const Skills = forwardRef<HTMLDivElement>(({}, ref) => {
           </ul>
         </div>
         <div className={styles.skill}>
-          <h3 className={styles.h3}>Tools & Platforms:</h3>
+          <h3 className={styles.h3}>Tools:</h3>
           <ul>
             <li>Visual Studio Code</li>
             <li>Postman</li>
+          </ul>
+        </div>
+        <div className={styles.skill}>
+          <h3 className={styles.h3}>Platforms:</h3>
+          <ul>
+            <li>Linux</li>
+            <li>MacOS</li>
           </ul>
         </div>
       </div>
