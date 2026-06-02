@@ -140,7 +140,7 @@ const NavBar = ({ scroll }: { scroll: (i: number) => void }) => {
           <ImMail4 size={30} />
         </a>
         <a
-          href="https://linkedin.com/in/sina-tavakolifard-538990269"
+          href="https://www.linkedin.com/in/sinatavakolifard/"
           target="_blank"
           className={styles.navSocialMediaItem}
         >

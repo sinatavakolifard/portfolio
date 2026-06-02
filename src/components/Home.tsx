@@ -19,7 +19,7 @@ const Home = forwardRef<HTMLDivElement>(({}, ref) => {
         <img
           className={styles.picture}
           src={myPicture}
-          alt="SinaTavakolifardPicture"
+          alt="Sina Tavakolifard"
         />
       </div>
     </div>

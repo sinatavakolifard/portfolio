@@ -9,16 +9,17 @@ const About = forwardRef<HTMLDivElement>(({}, ref) => {
       <div>
         <h2 className={styles.h2}>About Me:</h2>
         <p className={styles.aboutMeText}>
-          I am a passionate <span>Computer Sciecne</span> master student with
+          I am an <span>SDET Automation Engineer</span> and{" "}
+          <span>Full-Stack Web Developer</span> based in Germany, having nearly
+          completed my Master of Science in <span>Computer Science</span> with
           specializations in <span>Software Engineering</span> and{" "}
-          <span>Intelligent Systems</span>, currently working as a {" "}
-          <span>Software Developer in Test</span> with hight knowledge in{" "}
-          <span>Test Automation</span>. I am dedicated to expanding my
-          expertise in <span>Artificial Intelligence</span> and{" "}
-          <span>Machine Learning</span> technologies as my specializations. My
-          goal is to use my skills to solve problems in efficient way
-          while advancing inadvancing the field of AI/ML to stay at the forefront of
-          innovative technologies.
+          <span>Intelligent Systems</span>. I specialize in building robust{" "}
+          <span>Test Automation</span> frameworks while developing modern web
+          applications. I am dedicated to ensuring software quality and
+          expanding my expertise in <span>Artificial Intelligence</span> and{" "}
+          <span>Machine Learning</span>. My goal is to use my skills to solve
+          problems in an efficient way and stay at the forefront of innovative
+          technologies.
         </p>
       </div>
       <div>
@@ -37,10 +38,10 @@ const About = forwardRef<HTMLDivElement>(({}, ref) => {
             <BsLinkedin color="white" size="25"></BsLinkedin>
             <a
               className={styles.links}
-              href="https://linkedin.com/in/sina-tavakolifard-538990269"
+              href="https://www.linkedin.com/in/sinatavakolifard/"
               target="_blank"
             >
-              https://linkedin.com/in/sina-tavakolifard-538990269
+              https://www.linkedin.com/in/sinatavakolifard/
             </a>
           </li>
           <li className={styles.contactItem}>
