@@ -7,29 +7,34 @@ const Skills = forwardRef<HTMLDivElement>(({}, ref) => {
       <h2 className={styles.h2}>Skills:</h2>
       <div className={styles.skills}>
         <div className={styles.skill}>
-          <h3 className={styles.h3}>Machine Learning:</h3>
+          <h3 className={styles.h3}>Test Automation:</h3>
           <ul>
-            <li>Python</li>
-            <li>PyTorch</li>
-            <li>Data Mining</li>
-            <li>Information retrieval</li>
-          </ul>
-        </div>
-        <div className={styles.skill}>
-          <h3 className={styles.h3}>QE and Test:</h3>
-          <ul>
-            <li>Pytest</li>
-            <li>Appium</li>
+            <li>Playwright</li>
             <li>Selenium</li>
+            <li>Appium</li>
+            <li>Pytest</li>
+            <li>Postman</li>
+            <li>Allure Reports</li>
             <li>Jenkins</li>
           </ul>
         </div>
         <div className={styles.skill}>
-          <h3 className={styles.h3}>Front-End:</h3>
+          <h3 className={styles.h3}>Machine Learning:</h3>
+          <ul>
+            <li>PyTorch</li>
+            <li>spaCy</li>
+            <li>Whisper</li>
+            <li>Data Mining</li>
+            <li>Information Retrieval</li>
+          </ul>
+        </div>
+        <div className={styles.skill}>
+          <h3 className={styles.h3}>Front-End & Mobile:</h3>
           <ul>
             <li>React</li>
-            <li>JavaScript, TypeScript</li>
-            <li>HTML5, CSS3, SASS/SCSS</li>
+            <li>Flutter</li>
+            <li>HTML5, CSS3</li>
+            <li>SASS/SCSS</li>
             <li>Responsive Web Design</li>
           </ul>
         </div>
@@ -38,16 +43,26 @@ const Skills = forwardRef<HTMLDivElement>(({}, ref) => {
           <ul>
             <li>Node.js</li>
             <li>Express.js</li>
+            <li>FastAPI</li>
             <li>RESTful API Development</li>
             <li>Authentication & Authorization</li>
           </ul>
         </div>
         <div className={styles.skill}>
+          <h3 className={styles.h3}>Languages:</h3>
+          <ul>
+            <li>Python</li>
+            <li>TypeScript</li>
+            <li>JavaScript</li>
+            <li>Dart</li>
+          </ul>
+        </div>
+        <div className={styles.skill}>
           <h3 className={styles.h3}>Database:</h3>
           <ul>
+            <li>PostgreSQL</li>
             <li>MongoDB</li>
             <li>MySQL</li>
-            <li>SQL Server</li>
           </ul>
         </div>
         <div className={styles.skill}>
@@ -58,15 +73,10 @@ const Skills = forwardRef<HTMLDivElement>(({}, ref) => {
           </ul>
         </div>
         <div className={styles.skill}>
-          <h3 className={styles.h3}>Tools:</h3>
+          <h3 className={styles.h3}>Tools & Platforms:</h3>
           <ul>
             <li>Visual Studio Code</li>
-            <li>Postman</li>
-          </ul>
-        </div>
-        <div className={styles.skill}>
-          <h3 className={styles.h3}>Platforms:</h3>
-          <ul>
+            <li>Jira</li>
             <li>Linux</li>
             <li>MacOS</li>
           </ul>
